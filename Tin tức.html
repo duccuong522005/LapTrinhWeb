@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Tin Tức</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        header {
+            width: 100%;
+            background: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        main {
+            flex: 3;
+            padding: 1rem 2rem;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 1rem;
+            background: #f4f4f4;
+        }
+        article {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+        article h2 {
+            margin-bottom: 0.5rem;
+        }
+        .highlighted-articles ul {
+            list-style: none;
+            padding: 0;
+        }
+        .highlighted-articles li {
+            background: #e9ecef;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Tiêu đề trang -->
+<header>
+    <h1>Tin Tức Hôm Nay</h1>
+    <p>Cập nhật những tin tức mới nhất từ khắp nơi trên thế giới.</p>
+</header>
+
+<!-- Nội dung chính -->
+<main>
+    <!-- Bài báo đầu tiên -->
+    <article>
+        <h2>Bão số 4 đang tiến vào miền Trung</h2>
+        <h3>Ngày xuất bản: 19/09/2024</h3>
+        <p>Hồi 10 giờ, vị trí tâm bão số 4 ở trên vùng biển ven bờ từ Quảng Bình đến Thừa Thiên Huế. Sức gió mạnh nhất cấp 8-9 (62-88km/h), giật cấp 11. Dự báo: Trong 3 giờ tới, bão di chuyển theo hướng Tây, tốc độ khoảng 20-25km/h.
+           Dự báo, trong 24 giờ tới, bão số 4 di chuyển theo hướng Tây với tốc độ khoảng 15-25km/h. Đến 13h chiều nay, bão số 4 ở trên vùng biển ven bờ từ Quảng Quảng Bình đến Thừa Thiên Huế. Sức gió mạnh nhất vùng gần tâm bão mạnh cấp 8, giật cấp 10.
+        </p>
+    </article>
+
+    <!-- Bài báo thứ hai -->
+    <article>
+        <h2>"Thần đồng" Yamal liên tục nhận "đòn thù": Barcelona phải cẩn trọng</h2>
+        <h3>Ngày xuất bản: 23/09/2024</h3>
+        <p>Yamal bắt đầu bị đối thủ "triệt hạ"
+            Lamine Yamal đang là tài năng trẻ được chú ý nhất trên thế giới. Sau khi tỏa sáng rực rỡ tại EURO 2024, cầu thủ người Tây Ban Nha đang tiếp tục thăng hoa cùng Barcelona tại La Liga. Lần ra sân gần nhất, Yamal có một kiến tạo giúp đội chủ sân Nou Camp giành chiến thắng 5-1 ngay trên sân của Villarreal.
+                
+        </p>
+    </article>
+
+    <!-- Bài báo thứ ba -->
+    <article>
+        <h2>Hàng nghìn khách thưởng thức ẩm thực Hà Nội ở TP HCM</h2>
+        <h3>Ngày xuất bản: 22/08/2024</h3>
+        <p>Khu ẩm thực trong sự kiện "Những ngày Hà Nội tại TP HCM" giới thiệu nhiều món ngon Hà Nội, thu hút hàng nghìn khách trong ngày đầu tại phố đi bộ Nguyễn Huệ.
+            Lúc 19h ngày 23/8, hàng nghìn người đến tham quan, thưởng thức món ăn ở không gian ẩm thực Hà Nội, góc đường Nguyễn Huệ - Lê Lợi, quận 1. Hoạt động nằm trong chuỗi sự kiện của Những ngày Hà Nội tại TP HCM, nhân kỷ niệm 70 năm Ngày Giải phóng thủ đô (10/10/1954 – 10/10/2024).
+        </p>
+    </article>
+</main>
+
+<!-- Danh sách các bài viết nổi bật -->
+<aside class="sidebar">
+    <h3>Bài viết nổi bật</h3>
+    <section class="highlighted-articles">
+        <ul>
+            <li>Chung kết Miss Universe 2024</li>
+            <li>Giá xăng tăng cao kỷ lục</li>
+            <li>5 điểm đến du lịch không thể bỏ lỡ</li>
+            <li>Công nghệ AI đang thay đổi thế giới</li>
+            <li>Những cuốn sách hay nên đọc trong tháng này</li>
+        </ul>
+    </section>
+</aside>
+
+</body>
+</html>
+
