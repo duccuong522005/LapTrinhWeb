@@ -1,0 +1,16 @@
+/* Grouping selector for shared styles */
+.element-one, .element-two {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Unique styles for the first element */
+.element-one {
+    background-color: black;
+    color: white;
+}
+
+/* Unique styles for the second element */
+.element-two {
+    background-color: yellow;
+}
