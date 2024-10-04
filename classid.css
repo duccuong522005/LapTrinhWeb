@@ -1,0 +1,23 @@
+/* Định kiểu cho tất cả các phần tử số lẻ (class "odd") */
+.odd {
+    background-color: rgb(255, 182, 193); /* Hồng nhạt */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* Định kiểu cho phần tử số 2 (ID "even-2") */
+#even-2 {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Định kiểu bổ sung cho phần tử số 3 (class "third") */
+.third {
+    font-size: 24px;
+}
+
+/* Định kiểu cho phần tử số 4 (ID "even-4") */
+#even-4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
